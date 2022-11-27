@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align:center">Formulario</h1>  
+
+    <p><hr>    
+  
+ <tr>   
+
+ <table style="margin-left:auto;margin-right:auto;">
+
+  <td width="10%"><h3 style="text-align:center;"><a href="index.html">Inicio</a></h3></td> 
+  <td width="10%"><h3 style="text-align:center;"><a href="Errores.html">Errores</a></h3></td> 
+  <td width="10%"><h3 style="text-align:center;"><a href="Tablas.html">Tabla</a></h3></td> 
+  <td width="10%"><h3 style="text-align:center;"><a href="Anclas.html">Anclas</a></h3></td> 
+  <td width="10%"><h3 style="text-align:center;"><a href="Formulario.html">Formulario</a></h3></td> 
+  <td width="10%"><h3 style="text-align:center;"><a href="Video.html">Video</a></h3></td> 
+</tr> 
+
+ </table>
+
+<p><hr>
+
+    <h1 style="text-align:center">Ejercicio Formulario HTML</h1> 
+    
+        <form action="https://www.utpl.edu.ec/" method="post" target="_blank">
+
+            <fieldset>
+          
+              <legend>Información Principal</legend>
+          
+              <p><label>Nombres: <input type="text" name="fullname"></label></p>
+          
+              <p><label>Fecha de Nacimiento: <input type="date" name="birthdate"></label></p>
+
+              <p>Edad: <input type="number" name="edad"></p>
+              
+              <p>Sexo:
+          
+                <label><input type="radio" name="gender" value="masculino"> Masculino</label>
+          
+                <label><input type="radio" name="gender" value="femenino"> Femenino</label>
+          
+              </p>
+
+                <p>
+              
+                  Teléfono: <input type="tel" name="telephone" pattern="\([0-9]{3}\) [0-9]{3}[ -][0-9]{4}" title="A valid telephone number consist of a 3 digits code area between brackets, a space, the three first digits of the number, a space or hypen (-), and four more digits" required>
+              
+                </p>
+
+                <p>
+              
+                  E-mail: <input type="email" name="direccionemail" placeholder="usuario@servidor.com">
+              
+                </p>
+
+                <p><label>Fecha de Registro: <input type="date" name="birthdate"></label></p>
+
+                <p>Hora: <input type="time" name="eta"></p>
+          
+            </fieldset>
+          
+            <fieldset>
+          
+              <legend>Información Extra</legend>
+
+                <p>
+              
+                  Web: <input type="url" name="Web" placeholder="URL de tu página web personal">
+              
+                </p>
+            
+              <p>Pasatiempo:
+          
+                <label><input type="checkbox" name="Leer Libros"> Leer Libros</label>
+          
+                <label><input type="checkbox" name="Ver Peliculas"> Ver Peliculas</label>
+          
+                <label><input type="checkbox" name="Jugar Videojuegos"> Jugar Videojuegos</label>
+
+                <label><input type="checkbox" name="Escuchar Musica"> Escuchar Musica</label>
+
+                <label><input type="checkbox" name="Cantar"> Cantar</label>
+                
+                <label><input type="checkbox" name="Bailar"> Bailar</label>
+
+                <label><input type="checkbox" name="Hacer Deporte"> Hacer Deporte</label>
+
+                <label><input type="checkbox" name="Dibujar y Pintar"> Dibujar y Pintar</label>
+
+                <label><input type="checkbox" name="Cocinar"> Cocinar</label>
+          
+              </p>
+          
+              <p>
+
+                Deporte Favorito:
+              
+                <select>
+              
+                    <option>Ninguno</option>
+
+                    <option>Futbol</option>
+              
+                    <option>Baloncesto</option>
+              
+                    <option>Tenis</option>
+              
+                    <option>Natación</option>
+              
+                    <option>Atletismo</option>
+              
+                    <option>Boxeo</option>
+
+                    <option>Taekwondo</option>
+
+                    <option>Ciclismo</option>
+
+                    <option>Voleibol</option>
+
+                    <option>Lucha Libre</option>
+             
+                </select>
+              
+              </p>
+
+                <p>
+              
+                  Color Favorito: <input type="color" name="colorfavorito" list="listacoloresperfil">
+              
+                </p>
+              
+              <datalist id="listacoloresperfil">
+              
+                <option value="#ffff00">
+              
+                <option value="#0000ff">
+              
+                <option value="#ff0000">
+              
+                <option value="#ffaa00">
+
+                <option value="#00ff00">
+
+                <option value="#4f2f4f">
+
+                <option value="#ff00ff">
+ 
+                <option value="#00ffff">
+              
+                <option value="#a62a2a">
+
+                <option value="#c0c0c0">
+
+              </datalist>
+          
+            </fieldset>
+          
+          <p>
+          
+            <input type="submit" value="Enviar">
+           
+            <input type="reset" value="Borrar">
+           
+          </p>
+          
+        </form>
+
+      </section>
+    
+    <p><hr>
+
+      <footer>
+          <p style="text-align:center;"><img src="redes.png" alt="Logo de la pagina"  width="150"></p>
+          <p style="text-align:center;">© 2022 Jgquimiz. Todos los derechos reservados.</p>
+      </footer>
+
+      </body>
+      </html>  
